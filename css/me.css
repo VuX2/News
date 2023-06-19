@@ -1,0 +1,69 @@
+body
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.back
+{
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+hr
+{
+    margin-top: 30px;
+    margin-left: 125px;
+    border-radius: 3px;
+    height: 4px;
+    width: 150px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px black
+}
+
+.face
+{
+    margin-top: 30px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.main-profile
+{
+    position: relative;
+    text-align: center;
+    background-color: rgba(199, 227, 225, 0.7);
+    margin: 0 auto;
+    margin-top: 20vh;
+    width: 400px;
+    height: 500px;
+    border-radius: 30px;
+}
+
+.name
+{
+    position: absolute;/*parent position: main-profile*/
+    left: 140px;
+    top: 310px;
+    padding-bottom: 15px;
+}
+
+.des
+{
+    position: absolute;/*parent position: main-profile*/
+    left: 59px;
+    top: 350px;
+    padding-bottom: 15px;
+}
+
+.info a i
+{
+    margin-top: 130px;
+    color: black;
+    font-size: 27px;
+    padding: 20px;
+}
